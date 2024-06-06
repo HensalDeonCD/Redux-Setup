@@ -1,7 +1,7 @@
 import "./App.css";
 import { useDispatch, useSelector } from "react-redux";
-import { decrement, increment } from "./redux/reducers/clickReducer";
-// import { increment, decrement } from "./redux/actions/clickAction";
+// import { decrement, increment } from "./redux/reducers/clickReducer";
+import { increment, decrement } from "./redux/actions/clickAction";
 
 function App() {
   const dispatch = useDispatch();
